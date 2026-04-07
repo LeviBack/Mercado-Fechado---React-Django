@@ -1,0 +1,41 @@
+# ======================
+# 🔥 NODE / REACT
+# ======================
+node_modules/
+dist/
+dist-ssr/
+build/
+*.local
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ======================
+# 🐍 PYTHON / DJANGO
+# ======================
+__pycache__/
+*.pyc
+venv/
+.env
+db.sqlite3
+
+# ======================
+# 💻 IDE / SISTEMA
+# ======================
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+
+# ======================
+# 📦 OUTROS
+# ======================
+*.swp
+*.swo

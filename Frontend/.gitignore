@@ -19,11 +19,11 @@ pnpm-debug.log*
 # ======================
 # 🐍 PYTHON / DJANGO
 # ======================
-__pycache__/
-*.pyc
+Backend/__pycache__/
+Backend/*.pyc
 venv/
 .env
-db.sqlite3
+Backend/db.sqlite3
 
 # ======================
 # 💻 IDE / SISTEMA

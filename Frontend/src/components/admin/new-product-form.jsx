@@ -12,7 +12,9 @@ import {
   FieldGroup,
   FieldLabel,
 } from "@/components/ui/field";
-import { Input } from "@/components/ui/input";
+import { Input } from "@/components/ui/input"
+import { Link } from "react-router-dom";
+
 
 export function NewProductForm({ onSubmit,
   ...props
@@ -73,7 +75,7 @@ export function NewProductForm({ onSubmit,
             </Field>
             <FieldGroup>
               <Field>
-                <Button type="submit" className="cursor-pointer">Cadastrar novo produto</Button>
+                <Button type="submit" className="cursor-pointer"><Link to="/admin/produtos">Cadastrar novo produto</Link></Button>
               </Field>
             </FieldGroup>
           </FieldGroup>
